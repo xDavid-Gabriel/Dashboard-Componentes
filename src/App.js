@@ -76,7 +76,7 @@ const App = () => {
           {/* =========== Main ===========  xl:ml-72 flex-2*/}
           <div
             className={`dark:bg-main-dark-bg bg-main-bg min-h-screen w-full ${
-              activeMenu ? "lg:w-[75%]" : "flex-2"
+              activeMenu ? "lg:w-[75%] xl:w-[80%]" : "flex-2"
               
             }`}
           >
