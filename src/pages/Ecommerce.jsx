@@ -3,11 +3,13 @@ import { GoPrimitiveDot } from "react-icons/go";
 // import { IoIosMore } from 'react-icons/io';
 // import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 
-import { Stacked, Pie, Button, LineChart, SparkLine } from "../components";
+//Falta Pie,LineChart Componentes
+import { Stacked,  Button,  SparkLine } from "../components";
+//Falta ecomPieChartData data/dummy
 import {
   earningData,
   SparklineAreaData,
-  ecomPieChartData,
+
 } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
 const Ecommerce = () => {

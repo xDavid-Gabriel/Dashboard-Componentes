@@ -18,8 +18,10 @@ import {
   PdfExport,
   Edit,
 } from "@syncfusion/ej2-react-grids";
+
 //La data
-import { ordersData, contextMenuItems, ordersGrid } from "../data/dummy";
+//Falta contextMenuItems data/dummy
+import { ordersData, ordersGrid } from "../data/dummy";
 import { Header } from "../components";
 
 const Orders = () => {

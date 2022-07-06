@@ -4,7 +4,8 @@ import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
 // Componentes
-import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
+//Falta Footer
+import { Navbar,  Sidebar, ThemeSettings } from "./components";
 // Pages
 import {
   Ecommerce,

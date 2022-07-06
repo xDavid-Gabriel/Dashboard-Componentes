@@ -2,9 +2,9 @@ import { createContext, useContext, useState } from "react";
 
 const StateContext = createContext();
 
-{
+
   /* Esto puede servir para crear modales */
-}
+
 const initialState = {
   chat: false,
   cart: false,
@@ -14,9 +14,9 @@ const initialState = {
 
 export const ContextProvider = ({ children }) => {
   const [activeMenu, setActiveMenu] = useState(true);
-  {
+  
     /* Esto puede servir para crear modales */
-  }
+  
   const [isClicked, setIsClicked] = useState(initialState);
   const handleClick = (clicked) => {
     setIsClicked({ ...initialState, [clicked]: true });
