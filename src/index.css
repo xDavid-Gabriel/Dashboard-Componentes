@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/*Estilo de calendario*/
+#_dialog_wrapper{
+  max-width: 500px !important;
+  width: 90% !important;
+}
+/*Estilos del componente Chat*/
+.modal__container{
+  height: 500px;
+  overflow: auto;
+  z-index: 999;
+  position: absolute;
+  top: 5rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 91%;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+@media (min-width:640px) {
+  .modal__container{
+    height: auto;
+    width: 24rem;
+    left: initial;
+    transform: translateX(0);
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
